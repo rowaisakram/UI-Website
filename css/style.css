@@ -1,0 +1,26 @@
+/*Navbar*/
+.navbar-wrapper {
+  padding: 50px;
+}
+.navbar li {
+  gap: 100px;
+}
+.navbar img {
+  height: 100%;
+}
+.navbar .active {
+  border-bottom: 2px solid var(--text-color);
+}
+
+.navbar i {
+  font-size: 25px;
+}
+
+/*Hero Section*/
+.hero-section {
+  padding: 55px;
+}
+
+.hero-section span {
+  color: var(--accent-color);
+}
