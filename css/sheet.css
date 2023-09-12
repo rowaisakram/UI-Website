@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background-color: #181818;
+  --text-color: #ffff;
+  --secondary-color: #a460f9;
+  --footer-color: #8c6eca;
+  --footer-icons: #e6e6e6;
+  --banner-color: #e2e2e2;
+
+  --navbar-font: "Oswald", sans-serif;
+  --body-font: "Krub", sans-serif;
+
+  --h1-font-size: 132px;
+  --h2-font-size: 115px;
+  --h3-font-size: 93px;
+  --h4-font-size: 83px;
+  --h5-font-size: 60px;
+  --h6-font-size: 50px;
+  --p-font-size: 15px;
+  --normal-font-size: 17px;
+
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
+
+li {
+  font-family: var(--navbar-font);
+  font-size: var(--normal-font-size);
+}
+
+h1 {
+  font-family: var(--body-font);
+  font-size: var(--h1-font-size);
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1330px;
+}
+
+button {
+  padding: 10px 25px;
+  font-family: var(--navbar-font);
+}
