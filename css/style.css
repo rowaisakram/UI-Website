@@ -1,12 +1,15 @@
 /*Navbar*/
-.navbar-wrapper {
-  padding: 50px;
+.header-wrapper {
+  padding: 50px 0px;
 }
 .navbar li {
   gap: 100px;
 }
-.navbar img {
-  height: 100%;
+.navbar li ul {
+  padding-bottom: 10px;
+}
+.navbar figure img {
+  height: 50%;
 }
 .navbar .active {
   border-bottom: 2px solid var(--text-color);
@@ -16,11 +19,108 @@
   font-size: 25px;
 }
 
-/*Hero Section*/
-.hero-section {
-  padding: 55px;
+.navbar div:nth-child(3) button {
+  background-color: var(--text-color);
+  color: var(--secondary-color);
+  padding: 3px 20px;
 }
 
-.hero-section span {
+/*Hero Section*/
+.hero-section > div {
+  flex: 1;
+  height: 660px;
+}
+.hero-section-wrapper {
+  padding: 55px 0px;
+}
+
+.hero-section h1 span {
   color: var(--accent-color);
+}
+.hero-section div:nth-child(1) h6.position-absolute {
+  transform: rotate(270deg);
+  left: -110px;
+  top: 280px;
+}
+.hero-section h6 span {
+  text-transform: lowercase;
+}
+.hero-section div:first-child div:nth-child(3) p {
+  font-weight: var(--font-weight-bold);
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--text-color);
+  margin-top: 5px;
+}
+.circle {
+  width: 343px;
+  height: 343px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  top: 24%;
+}
+.position-absolute.d-flex {
+  top: 50%;
+  left: 40%;
+}
+
+.hero-section div:first-child div:nth-child(4) {
+  bottom: 0;
+  right: 15%;
+}
+
+.hero-section div:nth-child(3) div:first-child h6 {
+  letter-spacing: 2px;
+  font-size: var(--nomral-font-size);
+}
+
+.hero-section div:nth-child(3) div:first-child > p {
+  padding: 20px 0px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: var(--font-weight-medium);
+}
+
+.hero-section div:nth-child(3) div:first-child {
+  width: 70%;
+  margin-left: 60px;
+}
+
+.hero-section div:nth-child(3) div:first-child div:nth-child(3) p {
+  margin-left: 20px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.hero-section div:nth-child(3) div:nth-child(2) {
+  bottom: 0;
+  left: 10%;
+}
+
+/*Achivement Banner */
+.achivement-banner {
+  padding: 50px 0px;
+}
+.achivement > div {
+  flex: 1;
+  font-family: var(--navbar-font);
+}
+.achivement h6 span {
+  color: var(--accent-color);
+}
+.achivement p {
+  font-size: var(--nomral-font-size);
+  letter-spacing: 2px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.achivement p span {
+  font-weight: var(--font-weight-bold);
+}
+
+/*new challanges*/
+.new-challenges-wrapper {
+  padding: 110px 0px;
 }

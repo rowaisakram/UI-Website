@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>UI website</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -12,42 +12,110 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="navbar-wrapper">
-        <div class="navbar d-flex justify-content-between">
-          <img src="./assets/img/YourLogo.png" alt="" />
-          <li class="d-flex">
-            <ul class="active">
-              Home
-            </ul>
-            <ul>
-              About
-            </ul>
-            <ul>
-              Courses
-            </ul>
-            <ul>
-              Blog
-            </ul>
-            <ul>
-              <button>Sign In</button>
-            </ul>
-            <ul>
-              <i class="fa-solid fa-bars"></i>
-            </ul>
-          </li>
-        </div>
-      </div>
-      <div class="hero-section-wrapper">
-        <div class="hero-section">
-          <div>
-            <h1>UI<span>.</span></h1>
-            <h6>Beginner's</h6>
+    <section class="header">
+      <div class="header-wrapper">
+        <div class="container">
+          <div class="navbar d-flex justify-content-between">
+            <figure class="flex-1">
+              <img src="./assets/img/Logo.png" alt="Logo" />
+            </figure>
+            <div class="flex-2">
+              <li class="d-flex">
+                <ul class="active">
+                  Home
+                </ul>
+                <ul>
+                  About
+                </ul>
+                <ul>
+                  Courses
+                </ul>
+                <ul>
+                  Blog
+                </ul>
+              </li>
+            </div>
+            <div class="flex-1">
+              <li class="d-flex">
+                <ul>
+                  <button>Sign In</button>
+                </ul>
+                <ul>
+                  <i class="fa-solid fa-bars"></i>
+                </ul>
+              </li>
+            </div>
           </div>
-          <div></div>
-          <div></div>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="herosection">
+      <div class="hero-section-wrapper">
+        <div class="container">
+          <div class="hero-section d-flex">
+            <div class="position-relative">
+              <h1>UI<span>.</span></h1>
+              <h6 class="position-absolute">Beginner'<span>s</span></h6>
+              <div class="position-absolute d-flex" style="gap: 10px">
+                <p class="dot"></p>
+                <p>become a <br />pro-designer</p>
+              </div>
+              <div class="position-absolute">
+                <img src="./assets/img/Arrowleft.png" alt="arrow left" />
+              </div>
+            </div>
+            <div class="position-relative">
+              <div class="circle position-absolute"></div>
+              <figure class="position-absolute">
+                <img src="./assets/img/heroimage.png" alt="hero image" />
+              </figure>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center position-relative"
+            >
+              <div>
+                <h6>Start Guide for Beginner <br />designers</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consectetur dicta similique autem
+                </p>
+                <div class="d-flex">
+                  <button>Let's Start</button>
+                  <p>Read More</p>
+                </div>
+              </div>
+              <div class="position-absolute">
+                <img src="./assets/img/Arrowright.png" alt="arrow right" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="achivement-banner">
+      <div class="achivement-wrapper">
+        <div class="container">
+          <div class="achivement d-flex">
+            <div class="d-flex justify-content-center">
+              <h6><span>+</span>150</h6>
+              <p>Happy <br /><span>Students</span></p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <h6><span>+</span>50</h6>
+              <p>Certified<br /><span>Courses</span></p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <h6><span>+</span>1000</h6>
+              <p>Awards<br /><span>Received</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="new-challenges-wrapper">
+        <div class="container"></div>
+      </div>
+    </section>
   </body>
 </html>
