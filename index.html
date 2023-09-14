@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UI website</title>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
+
     <link rel="stylesheet" href="./css/sheet.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./java/java.js"></script>
   </head>
   <body>
     <section class="header">
@@ -20,7 +23,7 @@
               <img src="./assets/img/Logo.png" alt="Logo" />
             </figure>
             <div class="flex-2">
-              <li class="d-flex">
+              <li class="d-flex justify-content-center">
                 <ul class="active">
                   Home
                 </ul>
@@ -36,7 +39,7 @@
               </li>
             </div>
             <div class="flex-1">
-              <li class="d-flex">
+              <li class="d-flex justify-content-end">
                 <ul>
                   <button>Sign In</button>
                 </ul>
@@ -64,8 +67,8 @@
                 <img src="./assets/img/Arrowleft.png" alt="arrow left" />
               </div>
             </div>
-            <div class="position-relative">
-              <div class="circle position-absolute"></div>
+            <div class="d-flex">
+              <div class="circle position-relative"></div>
               <figure class="position-absolute">
                 <img src="./assets/img/heroimage.png" alt="hero image" />
               </figure>
@@ -80,7 +83,9 @@
                   Consectetur dicta similique autem
                 </p>
                 <div class="d-flex">
-                  <button>Let's Start</button>
+                  <button style="background-color: var(--accent-color)">
+                    Let's Start
+                  </button>
                   <p>Read More</p>
                 </div>
               </div>
@@ -97,7 +102,7 @@
         <div class="container">
           <div class="achivement d-flex">
             <div class="d-flex justify-content-center">
-              <h6><span>+</span>150</h6>
+              <h6 class="counter" data-count="150"><span>+</span>150</h6>
               <p>Happy <br /><span>Students</span></p>
             </div>
             <div class="d-flex justify-content-center">
@@ -114,7 +119,251 @@
     </section>
     <section>
       <div class="new-challenges-wrapper">
-        <div class="container"></div>
+        <div class="container d-flex">
+          <div class="flex-1 position-relative">
+            <div class="d-flex position-absolute">
+              <div class="dot"></div>
+              <p>discover your skills</p>
+            </div>
+          </div>
+          <div class="position-relative d-flex justify-content-center flex-2">
+            <div class="oval position-relative">
+              <div class="circle1 position-absolute"></div>
+              <div class="circle1 position-absolute"></div>
+            </div>
+            <div class="position-absolute text-center">
+              <h4>
+                Accept <br />
+                <span> New </span><br />Challenges
+              </h4>
+            </div>
+          </div>
+          <div class="flex-1 position-relative">
+            <div class="d-flex position-absolute">
+              <div class="dot"></div>
+              <p>discover your skills</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="explore-wrapper">
+        <div class="container">
+          <div class="d-flex text-center">
+            <div class="flex-1">
+              <h6>Explore</h6>
+            </div>
+            <div class="flex-1">
+              <img src="./assets/img/Arrowdown.png" alt="arrow down" />
+            </div>
+            <div class="flex-1">
+              <h6>About</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="courses">
+      <div class="courses-wrapper">
+        <div class="container">
+          <div class="courses-header justify-content-between d-flex">
+            <div class="d-flex">
+              <h2>Find</h2>
+              <h6>Your Course.</h6>
+            </div>
+            <div
+              class="d-flex flex-column align-items-end justify-content-center"
+            >
+              <div class="d-flex">
+                <div class="dot"></div>
+                <p>Edition</p>
+              </div>
+              <p>2022</p>
+            </div>
+          </div>
+          <div class="courses-div d-flex">
+            <div class="flex-1">
+              <div class="box">
+                <p class="text-center">.01</p>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <h6 class="position-relative">
+                  Course <span>01</span> <span class="underline"></span>
+                </h6>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi quaerat nostrum at, ratione ad itaque,
+                </p>
+                <button class="a" style="width: 50%">Read More</button>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="box">
+                <p class="text-center">.02</p>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <h6 class="position-relative">
+                  Course <span>02</span> <span class="underline"></span>
+                </h6>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi quaerat nostrum at, ratione ad itaque,
+                </p>
+                <button class="a" style="width: 50%">Read More</button>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="box">
+                <p class="text-center">.03</p>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <h6 class="position-relative">
+                  Course <span>03</span> <span class="underline"></span>
+                </h6>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi quaerat nostrum at, ratione ad itaque,
+                </p>
+                <button class="a" style="width: 50%">Read More</button>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="box">
+                <p class="text-center">.04</p>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <h6 class="position-relative">
+                  Course <span>04</span> <span class="underline"></span>
+                </h6>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi quaerat nostrum at, ratione ad itaque,
+                </p>
+                <button class="a" style="width: 50%">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <p>More Courses</p>
+            <figure><img src="./assets/img/Arrowright.png" alt="" /></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="about-us-wrapper">
+        <div class="position-relative">
+          <div class="oval position-absolute">
+            <div class="circle1 position-absolute"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="d-flex position-relative">
+            <div class="flex-1">
+              <div>
+                <h5>About <span>us.</span></h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                  mollitia, animi doloremque deserunt ab voluptatibus
+                  voluptatum.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex">
+                    <div class="dot"></div>
+                    <p>Lorem ipsum dolor.</p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="dot"></div>
+                    <p>Lorem ipsum dolor.</p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex">
+                    <div class="dot"></div>
+                    <p>Lorem ipsum dolor.</p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="dot"></div>
+                    <p>Lorem ipsum dolor.</p>
+                  </div>
+                </div>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div class="flex-1 d-flex justify-content-center">
+              <div class="d-flex">
+                <div class="circle1 position-absolute"></div>
+                <div class="circle position-relative"></div>
+                <figure class="position-absolute">
+                  <img src="./assets/img/aboutus.png" alt="about us image" />
+                </figure>
+              </div>
+            </div>
+            <div class="circle1 position-absolute"></div>
+          </div>
+        </div>
+      </div>
+      <div class="position-relative">
+        <div class="oval position-absolute">
+          <div class="circle1 position-absolute"></div>
+        </div>
+      </div>
+    </section>
+    <section class="why-us">
+      <div class="why-us-wrapper">
+        <div class="container">
+          <div class="d-flex">
+            <div class="flex-1 position-relative">
+              <div class="d-flex">
+                <div class="circle position-absolute"></div>
+                <figure class="position-absolute">
+                  <img src="assets/img/whyus.png" alt="hero image" />
+                </figure>
+              </div>
+              <div class="oval position-relative">
+                <div class="circle1 position-absolute"></div>
+                <div class="circle1 position-absolute"></div>
+              </div>
+            </div>
+            <div class="flex-1">
+              <h5>Why <span>us.</span></h5>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorem qui id ipsam, alias explicabo similique. Deserunt quis
+                animi temporibus eligendi aliquam optio debitis doloremque,
+                delectus voluptates veniam laboriosam culpa dolor!
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="position-relative">
+            <div class="circle1 position-absolute"></div>
+          </div>
+        </div>
+        <div class="position-relative">
+          <h2 class="position-absolute">Explore</h2>
+        </div>
+      </div>
+    </section>
+    <section class="banner">
+      <div class="banner-wrapper">
+        <div class="container">
+          <div
+            class="banner-div d-flex justify-content-around align-items-center"
+          >
+            <h4>Start</h4>
+            <div>
+              <div
+                class="circle-radial d-flex justify-content-center align-items-center"
+              >
+                <div class="triangle-right"></div>
+              </div>
+            </div>
+
+            <h4>now</h4>
+          </div>
+        </div>
       </div>
     </section>
   </body>
