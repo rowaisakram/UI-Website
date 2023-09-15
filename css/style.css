@@ -56,11 +56,10 @@
   margin-top: 5px;
 }
 .circle {
-  width: 343px;
-  height: 343px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  top: 24%;
 }
 .hero-section div:first-child div:nth-child(3) {
   top: 50%;
@@ -272,19 +271,16 @@
   background-color: var(--purple-shade);
 }
 .about-us-wrapper .container div:first-child > div:nth-child(2) .circle {
-  width: 395px;
-  height: 395px;
-  top: 20%;
-  left: 10%;
   background-color: var(--purple-shade);
+  margin: 0 auto;
 }
 .about-us-wrapper .container div:first-child > div:nth-child(2) .circle1 {
   right: 10%;
   background-color: var(--purple-shade);
 }
-.about-us-wrapper .container > div:first-child > div:first-child {
+/* .about-us-wrapper .container > div:first-child > div:first-child {
   padding: 120px;
-}
+} */
 .about-us-wrapper .container div:first-child > div:first-child h5 {
   text-transform: capitalize;
   padding-bottom: 40px;
@@ -332,6 +328,11 @@
 }
 .about-us > div:nth-child(2) {
   padding: 80px;
+}
+.about-us-wrapper .custom-shape figure {
+  position: absolute;
+  right: 0;
+  transform: translateX(-100px);
 }
 
 /*why us*/
@@ -496,4 +497,56 @@
   div:nth-child(3) {
   padding: 10px 0px;
   gap: 15px;
+}
+img {
+  max-width: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .about-us-wrapper .container > div:first-child > div:first-child {
+    padding: 0;
+  }
+  .about-us-wrapper {
+    padding: 50px 30px;
+  }
+  .about-us-wrapper .custom-shape figure {
+    transform: translateX(-20px);
+  }
+  .circle {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-us-wrapper {
+    padding: 50px 30px;
+  }
+  .about-us-wrapper .custom-shape figure {
+    transform: translateX(-20px);
+    max-width: 82%;
+  }
+  .circle {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-wrapper {
+    padding: 50px 30px;
+  }
+  .about-us-wrapper .custom-shape figure {
+    transform: translateX(-20px);
+    max-width: 82%;
+  }
+  .circle {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .custom-shape {
+    flex-direction: column;
+  }
 }
