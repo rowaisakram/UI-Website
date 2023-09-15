@@ -15,8 +15,11 @@
   --banner-color: #e2e2e2;
   --banner-text: #bfbfbf;
   --light-black-color: #252525;
+  --dark-text-color: #a3a3a3;
   --play-button: #c37df8;
   --play-button2: #6935ff;
+  --stars-color: #70599f;
+  --quote-color: #9172d1;
 
   --navbar-font: "Oswald", sans-serif;
   --body-font: "Krub", sans-serif;
@@ -47,6 +50,9 @@ h1 {
 }
 h2 {
   font-size: var(--h2-font-size);
+}
+h3 {
+  font-size: var(--h3-font-size);
 }
 h4 {
   font-size: var(--h4-font-size);
@@ -134,4 +140,24 @@ body {
 }
 .justify-content-around {
   justify-content: space-around;
+}
+
+blockquote {
+  quotes: "	\201C""	\201E";
+}
+blockquote {
+  text-indent: -1.1rem;
+  line-height: 1.5 rem;
+}
+
+blockquote::before,
+blockquote::after {
+  color: var(--quote-color);
+  font-size: 2.5rem;
+}
+blockquote::before {
+  content: open-quote;
+}
+blockquote::after {
+  content: close-quote;
 }

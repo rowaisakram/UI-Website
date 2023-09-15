@@ -431,3 +431,69 @@
   border-radius: 50%;
   opacity: 0.77;
 }
+.banner-wrapper .container div:first-child p {
+  transform: rotate(270deg);
+}
+
+/*Reviews*/
+.reviews-banner .container div:first-child h6 {
+  color: var(--purple-shade);
+  text-transform: lowercase;
+  font-weight: var(--font-weight-light);
+}
+.reviews-banner .container > div:nth-child(2) {
+  padding: 70px 0px;
+}
+.reviews-banner .container div:nth-child(2) > div:first-child > div > p {
+  color: var(--dark-text-color);
+  font-size: var(--nomral-font-size);
+  font-weight: var(--font-weight-bold);
+  padding: 20px 0px;
+}
+
+.reviews-banner
+  .container
+  div:nth-child(2)
+  > div:first-child
+  > div
+  div:nth-child(3)
+  i:nth-child(n + 1) {
+  color: var(--stars-color);
+}
+.reviews-banner
+  .container
+  div:nth-child(2)
+  > div:first-child
+  > div
+  div:nth-child(3)
+  i:nth-child(5) {
+  color: var(--dark-text-color);
+}
+.reviews-banner
+  .container
+  div:nth-child(2)
+  > div:first-child
+  > div
+  div:nth-child(4)
+  i {
+  color: var(--quote-color);
+}
+.reviews-banner
+  .container
+  div:nth-child(2)
+  > div:first-child
+  > div
+  div:nth-child(4) {
+  text-transform: lowercase;
+  font-size: 12px;
+  margin: 0px 90px;
+}
+.reviews-banner
+  .container
+  div:nth-child(2)
+  > div:first-child
+  > div
+  div:nth-child(3) {
+  padding: 10px 0px;
+  gap: 15px;
+}
