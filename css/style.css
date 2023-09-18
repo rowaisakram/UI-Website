@@ -2,17 +2,15 @@
 .header-wrapper {
   padding: 50px 0px;
 }
-.navbar li {
-  gap: 100px;
+.navbar > div:nth-child(2) > li {
+  gap: 90px;
 }
-.navbar li ul {
-  padding-bottom: 10px;
-}
-.navbar figure img {
-  height: 50%;
-}
-.navbar .active {
+
+.navbar > div:nth-child(2) > li ul:first-child::after {
+  content: "";
+  display: block;
   border-bottom: 2px solid var(--text-color);
+  /* margin-top: 8px; */
 }
 
 .navbar i {
@@ -41,9 +39,11 @@
   transform: rotate(270deg);
   left: -110px;
   top: 280px;
+  font-weight: var(--font-weight-light);
 }
 .hero-section h6 span {
   text-transform: lowercase;
+  font-weight: var(--font-weight-bold);
 }
 .hero-section div:first-child div:nth-child(3) p {
   font-weight: var(--font-weight-bold);
@@ -60,6 +60,9 @@
   height: 343px;
   border-radius: 50%;
   background-color: var(--accent-color);
+  z-index: -1;
+}
+.hero-section div:nth-child(2) > div:first-child {
   top: 24%;
 }
 .hero-section div:first-child div:nth-child(3) {
@@ -72,36 +75,59 @@
   right: 15%;
 }
 
-.hero-section div:nth-child(3) div:first-child h6 {
+.hero-section div:nth-child(3) > div:nth-child(2) > h6 {
   letter-spacing: 2px;
   font-size: var(--nomral-font-size);
 }
 
-.hero-section div:nth-child(3) div:first-child > p {
+.hero-section div:nth-child(3) > div:nth-child(2) > p {
   padding: 20px 0px;
   text-transform: capitalize;
   letter-spacing: 1px;
   font-weight: var(--font-weight-medium);
 }
 
-.hero-section div:nth-child(3) div:first-child {
+.hero-section div:nth-child(3) > div:nth-child(2) {
   width: 70%;
   margin-left: 60px;
 }
 
-.hero-section div:nth-child(3) div:first-child div:nth-child(3) p {
+.hero-section div:nth-child(3) div:nth-child(2) > div:nth-child(3) p {
   margin-left: 20px;
   margin-top: 10px;
-  letter-spacing: 1px;
+
+  font-weight: var(--font-weight-bold);
 }
-.hero-section div:nth-child(3) div:nth-child(2) {
+.hero-section div:nth-child(3) > div:nth-child(3) {
   bottom: 0;
   left: 10%;
 }
 
+.hero-section div:nth-child(3) > div:first-child {
+  top: 0;
+  right: 0;
+}
+.hero-section div:nth-child(3) > div:first-child p:first-child {
+  font-size: var(--normal-font-size);
+  letter-spacing: 1px;
+}
+.hero-section div:nth-child(3) > div:first-child p:nth-child(2) {
+  font-size: 28px;
+  letter-spacing: 4px;
+  font-weight: var(--font-weight-bold);
+}
+.hero-section div:nth-child(3) > div:first-child {
+  border-top: 2.5px solid var(--primary-color);
+  border-bottom: 2.5px solid var(--primary-color);
+  border-left: 2.5px solid var(--primary-color);
+  padding: 15px 30px;
+  margin-right: -35px;
+}
 /*Achivement Banner */
 .achivement-banner {
   padding: 50px 0px;
+  border-top: 10px solid var(--border-color);
+  border-bottom: 10px solid var(--border-color);
 }
 .achivement > div {
   flex: 1;
@@ -111,7 +137,7 @@
   color: var(--accent-color);
 }
 .achivement p {
-  font-size: var(--nomral-font-size);
+  font-size: var(--normal-font-size);
   letter-spacing: 2px;
   margin-left: 20px;
   margin-top: 15px;
@@ -122,7 +148,7 @@
 
 /*new challanges*/
 .new-challenges-wrapper {
-  padding: 110px 0px;
+  padding: 220px 0px;
 }
 .oval {
   height: 225px;
@@ -159,18 +185,24 @@
 }
 .new-challenges-wrapper .container > div:first-child {
   transform: rotate(270deg);
-  top: -100px;
 }
 .new-challenges-wrapper .container > div:first-child div:first-child {
   gap: 25px;
+  right: -50%;
+}
+.new-challenges-wrapper .container > div:first-child p {
+  font-weight: var(--font-weight-bold);
 }
 
 .new-challenges-wrapper .container > div:nth-child(3) {
   transform: rotate(90deg);
-  top: -100px;
 }
 .new-challenges-wrapper .container > div:nth-child(3) div:first-child {
   gap: 25px;
+  left: -50%;
+}
+.new-challenges-wrapper .container > div:nth-child(3) p {
+  font-weight: var(--font-weight-bold);
 }
 
 /*Explore*/
@@ -206,6 +238,7 @@
 .courses-div {
   gap: 55px;
   padding-top: 110px;
+  flex-wrap: wrap;
 }
 .courses-div > div {
   border: 3px solid var(--text-color);
@@ -496,4 +529,7 @@
   div:nth-child(3) {
   padding: 10px 0px;
   gap: 15px;
+}
+.reviews-banner .container div:nth-child(2) > div:first-child {
+  flex-wrap: wrap;
 }

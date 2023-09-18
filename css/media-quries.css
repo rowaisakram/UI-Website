@@ -1,0 +1,372 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+  .hero-section div:nth-child(3) > div:first-child {
+    margin-right: -100px;
+  }
+  /*Edition 2022*/
+  .hero-section div:nth-child(3) > div:nth-child(2) {
+    margin-left: 110px;
+    width: 90%;
+  }
+  /* New Challanges*/
+  .oval {
+    height: 200px;
+    width: 720px; /* Adjust the width */
+  }
+  .new-challenges-wrapper .container > div p {
+    font-size: 15px;
+  }
+
+  .new-challenges-wrapper .container div:nth-child(2) div:nth-child(2) h4 {
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 992.9px) {
+  .navbar > div:nth-child(2) > li {
+    gap: 50px;
+  }
+  .header-wrapper {
+    padding: 30px 0px;
+  }
+  .hero-section-wrapper {
+    padding: 35px 0px;
+  }
+  .container {
+    max-width: 850px !important;
+  }
+
+  .circle {
+    width: 300px;
+    height: 300px;
+  }
+  /*Edition 2022*/
+  .hero-section div:nth-child(3) > div:first-child {
+    margin-right: -65px;
+    padding: 10px 20px;
+  }
+  .hero-section div:nth-child(3) > div:first-child p:first-child {
+    font-size: 18px;
+  }
+  .hero-section div:nth-child(3) > div:first-child p:nth-child(2) {
+    font-size: 22px;
+  }
+  /*Start Guide*/
+
+  .hero-section div:nth-child(3) > div:nth-child(2) {
+    width: 100%;
+    margin-left: 60px;
+  }
+
+  .hero-section div:nth-child(3) > div:nth-child(2) > h6 {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .hero-section div:nth-child(3) > div:nth-child(2) > p {
+    font-size: 15px;
+    padding: 12px 0px;
+  }
+  /* Button*/
+  .hero-section div:nth-child(3) > div:nth-child(2) button {
+    padding: 5px 11px;
+    font-size: 14px;
+  }
+  .hero-section div:nth-child(3) div:nth-child(2) > div:nth-child(3) p {
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 9px;
+  }
+  .new-challenges-wrapper {
+    padding: 100px 0px;
+  }
+
+  .oval {
+    height: 150px;
+    width: 560px;
+  }
+
+  .circle1 {
+    width: 15px;
+    height: 15px;
+  }
+
+  .new-challenges-wrapper .container div:nth-child(2) > div:nth-child(2) > h4 {
+    font-size: var(--h6-font-size);
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  /* Navbar*/
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar li {
+    flex-direction: column;
+  }
+  .navbar > div,
+  .navbar > figure {
+    margin-bottom: 20px;
+  }
+  .navbar > div:nth-child(3) > li ul:nth-child(2) {
+    display: none;
+  }
+  .navbar > div:nth-child(2) > li {
+    gap: 20px !important;
+  }
+  .navbar > div:nth-child(3) > li {
+    align-items: center;
+    gap: 20px;
+  }
+  .navbar > div:nth-child(2) > li ul:first-child::after {
+    display: none;
+  }
+  .header-wrapper {
+    padding: 30px 0px;
+  }
+  .container {
+    max-width: 740px !important;
+  }
+  /*Hero Section*/
+  .hero-section-wrapper {
+    padding: 30px 0px;
+  }
+  .hero-section > div {
+    height: 500px;
+  }
+  /*Begineer's*/
+  .container .hero-section > div:first-child h1 {
+    font-size: 110px;
+  }
+  .hero-section div:nth-child(1) h6.position-absolute {
+    left: -93px;
+    top: 220px;
+    font-size: 45px;
+  }
+  .hero-section div:first-child div:nth-child(3) p {
+    font-size: 12px;
+  }
+  .hero-section div:first-child div:nth-child(3) {
+    top: 47%;
+  }
+
+  /*Arrows*/
+  .hero-section div:nth-child(3) > div:nth-child(3) img,
+  .hero-section div:first-child div:nth-child(4) img {
+    width: 75%;
+  }
+  /*2nd Div */
+  .hero-section div:nth-child(2) figure img {
+    height: 100%;
+  }
+  .hero-section div:nth-child(2) > div:first-child {
+    top: 22%;
+  }
+  .hero-section div:nth-child(2) .circle {
+    width: 220px;
+    height: 220px;
+  }
+  /*3rd Div*/
+
+  /*Edition 2022*/
+  .hero-section div:nth-child(3) > div:first-child {
+    margin-right: -12px;
+    padding: 10px 20px;
+  }
+  .hero-section div:nth-child(3) > div:first-child p:first-child {
+    font-size: 18px;
+  }
+  .hero-section div:nth-child(3) > div:first-child p:nth-child(2) {
+    font-size: 22px;
+  }
+  /*Start Guide*/
+
+  .hero-section div:nth-child(3) > div:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .hero-section div:nth-child(3) > div:nth-child(2) > h6 {
+    font-size: 15px;
+  }
+
+  .hero-section div:nth-child(3) > div:nth-child(2) > p {
+    font-size: 13px;
+    padding: 12px 0px;
+  }
+  /* Button*/
+  .hero-section div:nth-child(3) > div:nth-child(2) button {
+    padding: 5px 11px;
+    font-size: 12px;
+  }
+  .hero-section div:nth-child(3) div:nth-child(2) > div:nth-child(3) p {
+    font-size: 12px;
+    margin-left: 18px;
+    margin-top: 9px;
+  }
+  /* Achivement Banner*/
+
+  .achivement-banner {
+    padding: 40px 0px;
+    border-top: 5px solid var(--border-color);
+    border-bottom: 5px solid var(--border-color);
+  }
+  .achivement h6 {
+    font-size: 40px;
+  }
+  .achivement p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 14px;
+    margin-top: 8px;
+  }
+  /*New Challanges*/
+  .new-challenges-wrapper {
+    padding: 100px 0px;
+  }
+  .oval {
+    height: 100px;
+    width: 480px;
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+  .circle1 {
+    width: 15px;
+    height: 15px;
+  }
+  .new-challenges-wrapper .container > div p {
+    font-size: 12px;
+  }
+
+  .new-challenges-wrapper .container div:nth-child(2) div:nth-child(2) h4 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 550px !important;
+  }
+  /*Hero Section*/
+  .hero-section-wrapper {
+    padding: 30px 0px;
+  }
+  .hero-section > div {
+    height: 330px;
+  }
+  /*Begineer's*/
+  .container .hero-section > div:first-child h1 {
+    font-size: 90px;
+  }
+  .hero-section div:nth-child(1) h6.position-absolute {
+    left: -75px;
+    top: 190px;
+    font-size: 35px;
+  }
+  .hero-section div:first-child div:nth-child(3) p {
+    font-size: 12px;
+  }
+  .hero-section div:first-child div:nth-child(3) {
+    top: 60%;
+  }
+
+  /*Arrows*/
+  .hero-section div:nth-child(3) > div:nth-child(3) img,
+  .hero-section div:first-child div:nth-child(4) img {
+    width: 50%;
+  }
+  /*2nd Div */
+  .hero-section div:nth-child(2) figure img {
+    height: 100%;
+  }
+  .hero-section div:nth-child(2) > div:first-child {
+    top: 22%;
+  }
+  .hero-section div:nth-child(2) .circle {
+    width: 160px;
+    height: 160px;
+  }
+  /*3rd Div*/
+  /*Edition 2022*/
+  .hero-section div:nth-child(3) > div:first-child {
+    margin-right: -20px;
+    padding: 8px 15px;
+  }
+  .hero-section div:nth-child(3) > div:first-child p:first-child {
+    font-size: 12px;
+  }
+  .hero-section div:nth-child(3) > div:first-child p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  /*Start Guide*/
+
+  .hero-section div:nth-child(3) > div:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .hero-section div:nth-child(3) > div:nth-child(2) > h6 {
+    font-size: 11px;
+  }
+
+  .hero-section div:nth-child(3) > div:nth-child(2) > p {
+    font-size: 10px;
+    padding: 10px 0px;
+  }
+  /* Button*/
+  .hero-section div:nth-child(3) > div:nth-child(2) button {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .hero-section div:nth-child(3) div:nth-child(2) > div:nth-child(3) p {
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 6px;
+  }
+
+  /* Achivement Banner*/
+
+  .achivement-banner {
+    padding: 20px 0px;
+    border-top: 5px solid var(--border-color);
+    border-bottom: 5px solid var(--border-color);
+  }
+  .achivement h6 {
+    font-size: 25px;
+  }
+  .achivement p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  /* New Challanges-wrapper*/
+  .new-challenges-wrapper {
+    padding: 80px 0px;
+  }
+  .oval {
+    height: 90px;
+    width: 340px;
+  }
+  .dot {
+    height: 8px;
+    width: 8px;
+  }
+  .circle1 {
+    width: 10px;
+    height: 10px;
+  }
+  .new-challenges-wrapper .container > div p {
+    font-size: 10px;
+  }
+  .new-challenges-wrapper .container div:nth-child(2) div:nth-child(2) h4 {
+    font-size: 30px;
+  }
+}
