@@ -21,6 +21,8 @@
   --stars-color: #70599f;
   --quote-color: #9172d1;
   --border-color: #151515;
+  --banner-text-color: #8a6dc7;
+  --banner-text-color1: #6a6a6a;
 
   --navbar-font: "Oswald", sans-serif;
   --body-font: "Krub", sans-serif;
@@ -138,6 +140,9 @@ body {
 }
 .text-center {
   text-align: center;
+}
+.text-end {
+  text-align: end;
 }
 .display-inline {
   display: inline-block;

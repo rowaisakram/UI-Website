@@ -22,6 +22,11 @@
   .new-challenges-wrapper .container div:nth-child(2) div:nth-child(2) h4 {
     font-size: 65px;
   }
+  /*Courses*/
+  .courses-div {
+    gap: 20px;
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 992.9px) {
@@ -92,9 +97,17 @@
     width: 15px;
     height: 15px;
   }
-
   .new-challenges-wrapper .container div:nth-child(2) > div:nth-child(2) > h4 {
     font-size: var(--h6-font-size);
+  }
+  /*Courses Header*/
+  .courses-div {
+    gap: 50px;
+    justify-content: center;
+  }
+  .courses-div > div {
+    flex-basis: 30%;
+    max-width: 40%;
   }
 }
 
@@ -368,5 +381,46 @@
   }
   .new-challenges-wrapper .container div:nth-child(2) div:nth-child(2) h4 {
     font-size: 30px;
+  }
+  /*Explore*/
+  .explore-wrapper {
+    padding: 20px 0px;
+  }
+  .explore-wrapper .container h6 {
+    font-size: 30px;
+  }
+  .explore-wrapper .container img {
+    height: 60%;
+  }
+  /*Courses Header*/
+  .courses-wrapper {
+    padding-top: 25px;
+  }
+  .courses-wrapper .container .courses-header div:first-child {
+    align-items: baseline;
+  }
+  .courses-wrapper .container .courses-header div:first-child h2 {
+    font-size: 75px;
+  }
+  .courses-wrapper .container .courses-header div:first-child h6 {
+    font-size: 35px;
+  }
+  .courses-header div:nth-child(2) > p {
+    font-size: 18px;
+  }
+  .courses-header div:nth-child(2) > div:first-child p {
+    font-size: 12px;
+  }
+  .courses-div {
+    padding-top: 50px;
+    row-gap: 50px;
+    justify-content: center;
+  }
+  .courses-div > div {
+    flex-basis: 50%;
+    max-width: 60%;
+  }
+  .courses-header > div:nth-child(2) div:first-child {
+    gap: 10px;
   }
 }
