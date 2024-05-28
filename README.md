@@ -23,7 +23,7 @@ To get a local copy up and running, follow these simple steps:
    git clone https://github.com/rowaisakram/UI-Website.git
 2. **Navigate to the project directory**:
    ```sh
-   cd UI Website
+   cd UI-Website
 3. **Open index.html in your preferred web browser to see the website in action.**
 
 ## Contributing
