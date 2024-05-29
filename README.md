@@ -1,6 +1,7 @@
 # Course Platform Website
 
-This repository contains the code for a course platform website, offering various classes, user testimonials, and subscription options.
+This repository contains the code for a course platform website, offering various classes, user testimonials, and subscription options. *The website is designed for laptop screen sizes only.*
+
 
 ## Description
 
